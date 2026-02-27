@@ -8,7 +8,7 @@ import StepTwo from '@/components/steps/StepTwo';
 import StepThree from '@/components/steps/StepThree';
 import StepFour from '@/components/steps/StepFour';
 
-const API_URL = 'https://ideafy-blue.vercel.app/analyze';
+const API_URL = '/api/analyze';
 
 export default function Ideafy() {
   const [currentStep, setCurrentStep] = useState(-1);
